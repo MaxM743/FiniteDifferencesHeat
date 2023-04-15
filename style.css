@@ -31,3 +31,7 @@
   body {
     font-family: 'Computer Modern', serif;
   }
+  #description {
+    /* Existing styles */
+    text-align: justify;
+  }
