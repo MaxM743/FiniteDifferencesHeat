@@ -1,0 +1,23 @@
+ body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+    #content {
+      display: flex;
+      align-items: flex-start;
+      max-width: 100%;
+    }
+    #description {
+      max-width: 50%;
+      text-align: left;
+      margin-left: 20px;
+    }
+    #canvas-container {
+      display: flex;
+      justify-content: center;
+      max-width: 50%;
+    }
