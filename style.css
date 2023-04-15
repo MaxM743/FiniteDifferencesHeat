@@ -23,8 +23,8 @@
     }
  @font-face {
     font-family: 'Computer Modern';
-    src: url('fonts/cmunrm.woff2') format('woff2'),
-         url('fonts/cmunrm.woff') format('woff');
+    src: url('cmu.serif-roman.ttf') format('ttf'),
+         url('cmu.serif-roman.ttf') format('ttf');
     font-weight: normal;
     font-style: normal;
   }
