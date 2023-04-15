@@ -21,3 +21,14 @@
       justify-content: center;
       max-width: 50%;
     }
+ @font-face {
+    font-family: 'Computer Modern';
+    src: url('fonts/cmunrm.woff2') format('woff2'),
+         url('fonts/cmunrm.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  body {
+    font-family: 'Computer Modern', serif;
+  }
