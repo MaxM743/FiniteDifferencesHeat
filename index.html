@@ -12,6 +12,17 @@
   <script src="matrix.js"></script>
   <script src="controller.js"></script>
   <script src="camera.js"></script>
+  <script>
+  MathJax = {
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']]
+    },
+    svg: {
+      fontCache: 'global'
+    }
+  };
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.0/es5/tex-mml-chtml.js"></script>
 </head>
 <body>
 
@@ -19,7 +30,7 @@
     <div id="canvas-container"><script src="sketch.js"></script></div>
     <div id="description">
       <h1>My p5.js Sketch</h1>
-      <p>This is a description of how the code works. Explain the key concepts and functions that are used in the sketch, so that anyone visiting the page can understand the logic behind it.</p>
+      <p>This is a description of how the code works, including equations such as $ax^2 + bx + c = 0$. Explain the key concepts and functions that are used in the sketch, so that anyone visiting the page can understand the logic behind it.</p>
     </div>
   </div>
 </html>
