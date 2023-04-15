@@ -15,6 +15,7 @@
       max-width: 50%;
       text-align: left;
       margin-left: 20px;
+      text-align: justify;
     }
     #canvas-container {
       display: flex;
@@ -31,7 +32,4 @@
   body {
     font-family: 'Computer Modern', serif;
   }
-  #description {
-    /* Existing styles */
-    text-align: justify;
-  }
+
